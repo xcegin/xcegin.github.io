@@ -2,8 +2,8 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/font-awesome/css/font-awesome.css">
 		</head>
 		<body>
 			<nav>
@@ -19,11 +19,6 @@
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
+			{% include footer.html %}
 		</body>
 	</html>
