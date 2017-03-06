@@ -1,0 +1,14 @@
+- title: "Home"
+  href: "/"
+
+- title: "About"
+  href: "/about/"
+  
+- title: "CV"
+  href: "/cv/"
+ 
+- title: "Blog"
+  href: "/blog/"
+
+- title: "WPUB"
+  href: "/WPUB/"
