@@ -2,7 +2,3 @@ name: Jan Cegin, Student at FIIT STU
 markdown: kramdown
 encoding: UTF-8
 permalink: /blog/:year/:month/:day/:title
-
-facebook_url: https://facebook.com/jan.cegin
-googleplus_url: https://plus.google.com/jan.cegin
-github_url: https://github.com/xcegin
