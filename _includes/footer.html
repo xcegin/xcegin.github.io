@@ -7,7 +7,12 @@
       <li><a href="{{ site.data.links.gmail_url }}"><i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i></a></li>
 
       <li><a href="{{ site.data.links.github_url }}"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a></li>
-
+	  
+	  {% if page.title == "Jan Cegin Blog" %}
+	  
+	  <li><a href=" {{ site.data.links.rss_file }} "><i class="fa fa-rss-square fa-4x" aria-hidden="true"></i></a></li>
+	
+	  {% endif %}
     </ul>
     <ul class="copyright">
       <li>{{ site.time | date: '%Y' }}</li>

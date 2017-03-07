@@ -1,4 +1,10 @@
-﻿Jan Cegin
+---
+layout: default
+title: Jan Cegin CV
+---
+<div markdown="1">
+
+Jan Cegin
 ===========
 
 -------------------     ----------------------------
@@ -65,3 +71,5 @@ Non technical experience and personality
 * According to a test done via [16Personalities](https://www.16personalities.com/), my personality is Advocate. 
 
 * Flexible, fast-learning and reliable
+
+</div>
