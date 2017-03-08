@@ -9,3 +9,9 @@ title: Jan Cegin Blog
 	    <li><span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+	
+	<ul class="tags">
+	{% for tag in page.tags %}
+		<li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+	{% endfor %}
+	</ul>

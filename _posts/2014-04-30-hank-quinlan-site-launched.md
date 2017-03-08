@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+author: Jan Cegin
+tags: jekyll liquid blogging
+title: "Launched Github Site"
 date: 2014-04-30
 ---
 

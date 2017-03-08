@@ -7,3 +7,9 @@ layout: default
 <div class="post">
   {{ content }}
 </div>
+
+<ul class="tags">
+  {% for tag in page.tags %}
+    <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
