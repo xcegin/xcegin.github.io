@@ -8,9 +8,13 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 20px;
+}
+nav ul li {
+	margin-right: 5px;
+	display: inline;
 }
 a {
     text-decoration: none;
@@ -95,10 +99,29 @@ ul.posts li {
 }
 
 .tag:hover {
-  background-color: crimson;
+  background-color: #6762A3;
   color: white;
 }
 
 .tag:hover::after {
-   border-left-color: crimson; 
+   border-left-color: #6762A3; 
+}
+
+.menu {
+    display: inline-block;
+	padding: 10px 30px 10px 30px;
+}
+
+.menu:hover {
+    display: inline-block;
+	padding: 10px 30px 10px 30px;
+	background-color: #6762A3;
+	color: white;
+}
+
+.menu:active {
+    display: inline-block;
+	color: white;
+	padding: 10px 30px 10px 30px;
+	background-color: #6762A3;
 }
