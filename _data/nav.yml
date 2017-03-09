@@ -11,4 +11,11 @@
   href: "/blog/"
 
 - title: "WPUB"
-  href: "/WPUB/"
+  href: "/wpub/"
+  subcategorie:
+    - subtitle: "Assigment 1"
+      subhref: "/assigment1/"
+    - subtitle: "Assigment 2"
+      subhref: "/assigment2/"
+    - subtitle: "Assigment 3"
+      subhref: "/assigment3/"

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+ {{ content }}
+<br>
+<h2>Task which I am working on</h2>
+{% for task in site.data.wpub %}
+	<p><b>Name of task: </b> {{ task.name }}
+	<br>
+	<b>Percentage: </b> {{ task.percentage }}</p>
+  {% if task.subtasks != null %}
+	<table style="width:80%" class="w3-table-all w3-hoverable"> 
+	  <tr>
+	<th>Subtask</th>
+    <th>Description</th> 
+	</tr>
+	  {% for subtasks in task.subtasks %}
+	  <tr>
+		<td>{{ subtasks.subtask }}</td>
+		<td>{{ subtasks.subdescription }}</td>
+	  </tr>
+	  {% endfor %}
+	  </table>
+  {% endif %}
+  <br>
+{% endfor %}

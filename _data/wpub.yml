@@ -1,0 +1,15 @@
+- name: "Assigment 1"
+  percentage: "100%"
+  subtasks:
+    - subtask: "Create navigation."
+      subdescription: "Create proper navigation menu."
+    - subtask: "Create layouts."
+      subdescription: "Create proper layouts."
+    - subtask: "Create content."
+      subdescription: "Create blog content, etc."
+  
+- name: "Assigment 2"
+  percentage: "0%"
+  subtasks:
+    - subtask: "Get to know the assigment."
+      subdescription: "What I need to actually do - write it down."
