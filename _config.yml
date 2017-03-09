@@ -5,3 +5,11 @@ permalink: /blog/:year/:month/:day/:title
 safe: false
 gems:
   - jemoji
+  - jekyll-seo-tag
+  
+social:
+  name: Jan Cegin
+  links:
+    - https://facebook.com/jan.cegin
+    - https://github.com/xcegin
+    - https://www.linkedin.com/in/jan-cegin-439733130/

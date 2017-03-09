@@ -7,6 +7,8 @@ title: Jan Cegin CV
 Jan Cegin
 ===========
 
+<img src="/images/profile.jpg" alt="profile" style="width: 150px; height: 190px;"/>
+
 -------------------     ----------------------------
 Rokytov 41                    
 08601 Rokytov                         
