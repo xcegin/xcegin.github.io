@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assiment 1
+title: Assigment 1
 ---
 
 ASSIGMENT 1
