@@ -9,7 +9,11 @@
       subdescription: "Create blog content, etc."
   
 - name: "Assigment 2"
-  percentage: "0%"
+  percentage: "90%"
   subtasks:
     - subtask: "Get to know the assigment."
       subdescription: "What I need to actually do - write it down."
+    - subtask: "Create docbook file."
+      subdescription: "Actually rewrite bachelor thesis into docbook"
+    - subtask: "Write assigment file"
+      subdescription: "Write assigment file and upload it to github"
