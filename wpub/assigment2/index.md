@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Assigment 1
+title: Assigment 2
 ---
 
-ASSIGMENT 1
+ASSIGMENT 2
 ============
 
 -------------------     ----------------------------
@@ -11,14 +11,18 @@ ASSIGMENT 1
 Instrukcie
 ---------
 
-Na spustenie stranky nie su potrebne specialne pluginy, takze by mal stacit rozbehany Jekyll na localhoste.
-Pre spustenie stranky prikaz `jekyll serve`, resp. `bundler exec jekyll serve` a nasledne zadanie
-[localhost:4000](http://localhost:4000).
+Pouzitie xep.bat zo sablony uvedenej na stranke.
 
 Poziadavky a ich splnenie
 ----------
-+ Viacero podstranok a vyuzitie viacerych layoutov - Default, Tags, Wpub (pouzitelny pre roznorody task managment) a Post
-+ Viacero premennych 
-+ Pouzitie modularnosti - rozdelenie stranok na podstranky pomocou _include zlozky
-+ Viacero tagov pri postoch na blogu a filtre na roznych miestach
-+ Vyuzite Emotikon :+1: a SEO plugin z GitHub
++ Standartne clenenie textu dodrzane
++ Text cez odrazky, pouzitie kurziv
++ Odkazy na ine casti dokumentu - obrazok, odkazy URL v pouzitej literature
++ 2 poznamky pod ciarou
++ Pouzita literatura s odkazmi v texte
++ obrazky v texte, bez tabuliek, ale xsl je doplneny o tag na vytvorenie zoznamu tabuliek v texte `<xsl:param name="generate.toc">
+book      title,toc,figure,table
+</xsl:param>` 
++ vytvorenie registra pojmov - indexu - na konci dokumentu
+
+Samotny dokument neobsahuje tabulku, pricom v povodnom dokumente sa nenachadzala. XSL bolo pozmenene tak, aby vyhovovalo poziadavkam zadania
