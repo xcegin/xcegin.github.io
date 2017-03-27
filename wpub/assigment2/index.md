@@ -20,9 +20,7 @@ Poziadavky a ich splnenie
 + Odkazy na ine casti dokumentu - obrazok, odkazy URL v pouzitej literature
 + 2 poznamky pod ciarou
 + Pouzita literatura s odkazmi v texte
-+ obrazky v texte, bez tabuliek, ale xsl je doplneny o tag na vytvorenie zoznamu tabuliek v texte <code><xsl:param name="generate.toc">
-book      title,toc,figure,table
-</xsl:param> </code>
++ obrazky v texte, jedna tabulka vytvorena dodatocne oproti originalnej verzii bakalarky
 + vytvorenie registra pojmov - indexu - na konci dokumentu
 
 Samotny dokument neobsahuje tabulku, pricom v povodnom dokumente sa nenachadzala. XSL bolo pozmenene tak, aby vyhovovalo poziadavkam zadania
