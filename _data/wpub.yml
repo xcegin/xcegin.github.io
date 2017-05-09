@@ -7,7 +7,7 @@
       subdescription: "Create proper layouts."
     - subtask: "Create content."
       subdescription: "Create blog content, etc."
-  
+
 - name: "Assigment 2"
   percentage: "100%"
   subtasks:
@@ -17,7 +17,7 @@
       subdescription: "Actually rewrite bachelor thesis into docbook"
     - subtask: "Write assigment file"
       subdescription: "Write assigment file and upload it to github"
-	  
+
 - name: "Assigment 3"
   percentage: "80%"
   subtasks:
