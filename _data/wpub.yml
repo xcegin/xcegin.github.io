@@ -9,7 +9,7 @@
       subdescription: "Create blog content, etc."
   
 - name: "Assigment 2"
-  percentage: "90%"
+  percentage: "100%"
   subtasks:
     - subtask: "Get to know the assigment."
       subdescription: "What I need to actually do - write it down."
@@ -17,3 +17,15 @@
       subdescription: "Actually rewrite bachelor thesis into docbook"
     - subtask: "Write assigment file"
       subdescription: "Write assigment file and upload it to github"
+	  
+- name: "Assigment 3"
+  percentage: "80%"
+  subtasks:
+    - subtask: "Get to know the assigment."
+      subdescription: "What I need to actually do - write it down."
+    - subtask: "Create xml presentation."
+      subdescription: "Actually write a presentation with structure in xml."
+    - subtask: "Create XML Schema"
+      subdescription: "XML Schema as its more powerful than DTD."
+    - subtask: "Create Transformations"
+      subdescription: "XHTML+CSS first, then, if I have enough time, PDF-XSL:FO."
