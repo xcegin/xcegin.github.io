@@ -1,0 +1,6 @@
+label,synthetic_dir,n_syn_shards,syn_tokens_used,syn_docs_kept,syn_tokens_per_doc,human_first_shard,human_last_shard,human_tokens_used,syn_ids_match_fineweb,human_shards_shared_with_base,human_dump_tvd_vs_base,syn_source_dump_tvd_vs_base,human_n_dumps
+base,/project/p2364-26-ai/outputs_flor_base_smolm2_para_vllm/faq/,113,9999998976,22522845,447.6379942231987,113,181,9999998976,1.0,1.0,0.0,0.0,12
+reg15,/project/p2364-26-ai/outputs_flor_l14_smolm2_para_vllm_registers_llama_whitened/faq/en_15/,108,9999998976,21527598,467.99919057388564,108,176,9999998976,1.0,0.927536231884058,0.07491485807128144,0.030837651855007538,10
+reg35,/project/p2364-26-ai/outputs_flor_l14_smolm2_para_vllm_registers_llama_whitened/faq/en_35,87,9999998976,17343531,577.3385827257437,87,155,9999998976,1.0,0.6231884057971014,0.38242582297615024,0.05796933583307608,8
+wiki15,/project/p2364-26-ai/outputs_flor_l14_smolm2_para_vllm_wiki_register_whitened/faq/en_15,112,9999998976,22302588,449.90195877716076,112,180,9999998976,1.0,0.9855072463768116,0.015137341750063848,0.002603272780403648,12
+wiki35,/project/p2364-26-ai/outputs_flor_l14_smolm2_para_vllm_wiki_register_whitened/faq/en_35,92,9999998976,18304433,549.9559914803152,92,160,9999998976,1.0,0.6956521739130435,0.3114654703516301,0.033765446895952705,8
