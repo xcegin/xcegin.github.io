@@ -1,0 +1,7 @@
+name,mode,pos,neg,n_pos,n_neg,reliability,heldout_auroc,pair_accuracy,length_auroc,cos_register,alpha_matched
+answer_style,chat,short direct extractive answer,"answer that restates the question, long first sentence (same rewrite)",2000,2000,0.9619117438793182,0.9161430000000002,0.9231999999999999,0.037406125,-0.0012223818339407444,16.182641983032227
+edu_quality,plain,"FineWeb window, edu score >= 3.0","FineWeb window, edu score in [-99.0, 1.0), length-matched",1318,1318,0.9743728995323181,0.9981777411657182,,0.506871415051545,-0.0114376749843359,34.4100227355957
+faithfulness,chat,answer whose numbers are all supported by the source,answer with >= 1 unsupported number (same rewrite),2000,2000,0.9449487149715423,0.74960895,0.7981,0.426904875,-0.03827090561389923,12.148259162902832
+formulaicity,chat,least predictable of K unsteered rewrites,"most predictable rewrite, same doc",1454,1454,0.9701412558555603,0.7975218956764907,0.939752407152682,0.4639620058691198,-0.12665995955467224,15.308613777160645
+realized_reg35,chat,rewrite from reg35,rewrite of the same document from base,1349,1349,0.9776453256607056,0.853840548696845,0.9608888888888888,0.49629959539532065,0.320264995098114,18.472362518310547
+temperature,chat,rewrite from temp108,rewrite of the same document from base,1790,1790,0.8524039268493653,0.6429911675665553,0.7070391061452515,0.5011070191317375,-0.13415977358818054,16.147502899169922

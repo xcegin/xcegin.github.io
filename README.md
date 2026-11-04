@@ -1,6 +1,6 @@
 # page_report: shareable results page
 
-A static, single-page report (`index.html`) summarising `model_results_analysis/` and `loss_attribution_analysis/`. It has no external dependencies (no JavaScript libraries, fonts or CDN), supports light/dark mode, and works on phones.
+A static, single-page report (`index.html`) summarising `model_results_analysis/`, `loss_attribution_analysis/`, the steering-vector work (`vector_computation/`, `contrasts/`) and the generation speed-up (`optimized_inference/`). Updated 2026-11-04. It has no external dependencies (no JavaScript libraries, fonts or CDN), supports light/dark mode, and works on phones.
 
 ## Contents
 
@@ -17,7 +17,7 @@ A static, single-page report (`index.html`) summarising `model_results_analysis/
 
 | `data/` file | Original |
 |---|---|
-| `lighteval_{llama,qwen}_{aggregates,task_deltas,contrasts}.csv` | `model_results_analysis/{llama_1b,qwen2_1.7b}/lighteval_nall/{aggregates,task_deltas,contrasts}.csv` |
+| `lighteval_{llama,qwen,qwen29}_{aggregates,task_deltas,contrasts}.csv` | `model_results_analysis/{llama_1b,qwen2_1.7b,qwen2_2.9b}/lighteval_nall/{aggregates,task_deltas,contrasts}.csv` (task deltas hold both `prob_norm_token` and `acc_norm_token`) |
 | `ppl_deltas.csv`, `ppl_contrasts.csv` | `model_results_analysis/ppl/{deltas,contrasts}.csv` |
 | `attribution_{llama,qwen}.csv` | `loss_attribution_analysis/outputs/attribution_{llama,qwen}_all/attribution.csv` |
 | `token_overall.csv`, `token_special.csv`, `token_calib_quintiles.csv` | `loss_attribution_analysis/outputs/cross_arm/{overall,special_tokens,calib_quintiles}.csv` |
@@ -27,12 +27,19 @@ A static, single-page report (`index.html`) summarising `model_results_analysis/
 | `answers_{content,contrasts,numbers,types}.csv` | `loss_attribution_analysis/outputs/answers/{answer_content,answer_contrasts,number_faithfulness,answer_types}.csv` |
 | `preference.csv`, `preference_vs_base.csv` | `loss_attribution_analysis/outputs/preference/{preference,preference_vs_base}.csv` |
 | `mix_manifest.csv` | `loss_attribution_analysis/outputs/manifest/manifest.csv` |
+| `vector_sources.csv` | `vector_computation/results/per_source.csv`, layer 14 (whitened_own columns) |
+| `vector_cosines.csv` | the layer-14 cosine matrix of `contrasts/results/CONTRASTS.md` |
+| `contrast_reports.csv` | `contrasts/results/vectors/<name>/report.json` (contrasts only) |
+| `screen.csv` | `contrasts/screen/screen.csv` (the screen's α per arm is read from `contrasts/screen/logs/<arm>/arm.txt` at build time) |
 
 **Not computed from these files:**
-- the seed-noise band (0.16–0.49 points), from the finephrase paper's Table 21, as quoted in `sources/LIGHTEVAL_N1000.md`;
+- the seed-noise band (0.16–0.49 points), from the finephrase paper's Table 21, as quoted in `sources/LIGHTEVAL_NALL.md` (see `model_results_analysis/LIGHTEVAL_N1000.md` for the original);
 - the setup facts (architectures, mix, generator, steering layer and α);
 - the qualitative description of the unsupported-number examples (`loss_attribution_analysis/outputs/answers/NUMBERS.md`);
-- the temperature-baseline note (`sources/RUN_PLAN.md`).
+- the temperature-baseline note (`sources/RUN_PLAN.md`);
+- the qwen 2.9B held-out loss sentence (from `final_eval.json`, quoted in `sources/LIGHTEVAL_NALL.md`);
+- the generation speed-up paragraph (`optimized_inference/README.md`, `throughput_sweep/`);
+- the base-corpus reference values of the screen (`contrasts/screen/SCREEN.md`).
 
 ## Publishing on GitHub Pages
 
